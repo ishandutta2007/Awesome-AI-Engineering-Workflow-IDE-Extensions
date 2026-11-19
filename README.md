@@ -66,7 +66,7 @@ The sector demonstrates a **concentrated core** anchored by tech hyperscalers an
 
 ## 🌐 Open-Source GitHub Projects
 
-*Open-source AI coding tools, autonomous agents, and IDE plugins sorted in descending order by GitHub star count.*
+*Open-source AI coding tools, autonomous agents, and IDE plugins sorted in descending order by GitHub Stars_Count.*
 
 1. **[Superpowers (`obra/superpowers`)](https://github.com/obra/superpowers)** [![Stars](https://img.shields.io/github/stars/obra/superpowers?style=social&color=white)](https://github.com/obra/superpowers/stargazers)  
    Structured software engineering skill framework for Claude Code, Codex, and OpenCode enforcing brainstorming, test-driven development (TDD), subagent orchestration, and systematic debugging workflows.
@@ -154,7 +154,7 @@ Contributions are warmly welcome! Whether you are an open-source maintainer or a
 3. Add or update the platform/project under the relevant section:
    - Ensure the name, repository link, and description are factual.
    - For SaaS products, verify starting prices and free tier limits.
-   - For open-source repos, include the social star badge linking to the stargazer page.
+   - For open-source repos, include the social Stars_Badge linking to the stargazer page.
 4. **Commit** your changes: `git commit -m "Add new AI engineering extension"`.
 5. **Push** to your fork: `git push origin feat/add-awesome-extension`.
 6. Open a **Pull Request** detailing why the tool belongs in this curated ecosystem.
@@ -179,4 +179,4 @@ Thank you for exploring this ecosystem! If you find this directory helpful for y
 
 ## 📜 Disclaimer
 
-*This repository is curated for educational, developmental, and research purposes. Product names, logos, and brands are property of their respective owners. Pricing, tier limits, valuations, and star counts are subject to change over time.*
+*This repository is curated for educational, developmental, and research purposes. Product names, logos, and brands are property of their respective owners. Pricing, tier limits, valuations, and Stars_Counts are subject to change over time.*
