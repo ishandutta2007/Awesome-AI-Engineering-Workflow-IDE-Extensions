@@ -30,77 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The AI developer tools and engineering workflow market is projected to reach approximately $7.0B to $9.5B by 2026, driven by enterprise shift from simple autocomplete to autonomous agentic workflows and multi-file code synthesis. The sector displays a concentrated core dominated by hyperscalers and key platform providers (such as Microsoft/GitHub, Amazon, and Anysphere/Cursor) capturing the majority of enterprise revenue, complemented by a moderately fragmented, fast-evolving ecosystem of specialized venture-backed startups and open-source tooling.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Cursor](https://cursor.com)**  
-
-  AI-native code editor forked from VS Code featuring predictive Tab autocomplete, codebase-wide RAG indexing, Composer multi-file agents, and background cloud agents.
-
-
-
-- **[GitHub Copilot & Copilot Workspace](https://github.com)**  
-
-  End-to-end AI engineering platform spanning inline IDE autocomplete, multi-file Copilot Edits, issue-to-PR planning workspaces, and autonomous coding agent workflows.
-
-
-
-- **[Windsurf (formerly Codeium)](https://windsurf.com)**  
-
-  Agentic AI IDE and multi-editor extension suite powered by Cascade flows, deep contextual awareness, live terminal/preview synchronization, and low-latency Supercomplete.
-
-
-
-- **[Replit Agent & Ghostwriter](https://replit.com)**  
-
-  Cloud-based collaborative IDE and autonomous software engineering platform capable of planning, coding, debugging, and deploying full-stack applications from natural language.
-
-
-
-- **[Tabnine Enterprise](https://tabnine.com)**  
-
-  Enterprise-grade AI coding assistant emphasizing zero-data-retention privacy, VPC/air-gapped deployments, custom repository fine-tuning, and compliance-safe code generation.
-
-
-
-- **[Amazon Q Developer](https://amazon.com)**  
-
-  Cloud AI software development assistant providing IDE code generation, automated Java/Python runtime upgrades, security vulnerability scanning, and AWS infrastructure troubleshooting.
-
-
-
-- **[Sourcegraph Cody](https://sourcegraph.com)**  
-
-  Enterprise AI engineering assistant leveraging Sourcegraph's code graph and multi-repository search to deliver context-aware chat, inline edits, and unit test synthesis.
-
-
-
-- **[JetBrains AI Assistant & Junie](https://jetbrains.com)**  
-
-  Natively integrated AI coding assistant and autonomous engineering agent built directly into IntelliJ IDEA, PyCharm, WebStorm, GoLand, and Rider.
-
-
-
-- **[Continue.dev Hub (Cloud)](https://continue.dev)**  
-
-  Cloud governance and configuration layer for the open-source Continue IDE extension enabling shared team engineering assistants, MCP tool setups, and model routing policies.
-
-
-
-- **[Augment Code](https://augmentcode.com)**  
-
-  Enterprise AI software engineering platform engineered with real-time codebase context engines for massive monorepos and autonomous task execution.
+| Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier Limits / Evaluation | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Q Developer](https://amazon.com)** | ~$2.1T (Parent: Amazon Market Cap) / $19/user/mo Pro tier | $19.00 / user / month (Pro Tier) | **Perpetual Free Tier**: 50 agentic requests/mo, 1,000 lines of code transformation/mo, and 50 security scans/mo (AWS Builder ID required). | Cloud AI software development assistant providing IDE code generation, automated Java/Python runtime upgrades, security vulnerability scanning, and AWS infrastructure troubleshooting. |
+| **[GitHub Copilot & Copilot Workspace](https://github.com)** | ~$3.1T (Parent: Microsoft Market Cap) / ~$2B+ Copilot ARR | $10.00 / month (Copilot Pro) | **Perpetual Free Tier**: 2,000 code completions/mo and 50 chat messages/mo with basic agent capabilities; 30-day trial for Pro. | End-to-end AI engineering platform spanning inline IDE autocomplete, multi-file Copilot Edits, issue-to-PR planning workspaces, and autonomous coding agent workflows. |
+| **[Cursor](https://cursor.com)** | $60B (Acquired by SpaceX, Aug 2026; prev. $29.3B Series D) | $20.00 / month (Pro Tier) | **Perpetual Free Tier (Hobby)**: 2,000 Tab completions/mo and 50 slow premium requests/mo; 14-day Pro trial on signup. | AI-native code editor forked from VS Code featuring predictive Tab autocomplete, codebase-wide RAG indexing, Composer multi-file agents, and background cloud agents. |
+| **[Replit Agent & Ghostwriter](https://replit.com)** | $9B (Series D, Mar 2026; prev. $3B valuation) | $25.00 / month (Replit Core) | **Perpetual Free Tier (Starter)**: 0.5 vCPU, 512MB RAM, limited basic autocomplete, and a restricted daily allowance for Replit Agent. | Cloud-based collaborative IDE and autonomous software engineering platform capable of planning, coding, debugging, and deploying full-stack applications from natural language. |
+| **[Windsurf (formerly Codeium)](https://windsurf.com)** | $3B (Acquired via Google licensing & Cognition, 2025) | $15.00 / month (Codeium Pro) / $20.00 / month (Windsurf Pro) | **Perpetual Free Tier**: Unlimited standard code autocompletions/edits across IDEs, with a restricted light quota for Cascade Flow agent actions on mini models. | Agentic AI IDE and multi-editor extension suite powered by Cascade flows, deep contextual awareness, live terminal/preview synchronization, and low-latency Supercomplete. |
+| **[Sourcegraph Cody](https://sourcegraph.com)** | $2.6B (Series D valuation) / ~$50M ARR | $19.00 / user / month (Enterprise Starter) | **Enterprise Trial**: No perpetual free individual tier; provides a customized 14-to-30 day Enterprise proof-of-concept (PoC) evaluation upon sales demo. | Enterprise AI engineering assistant leveraging Sourcegraph's code graph and multi-repository search to deliver context-aware chat, inline edits, and unit test synthesis. |
+| **[Augment Code](https://augmentcode.com)** | $977M (Series B valuation) | $20.00 / user / month (Standard Plan) | **Free Evaluation**: No perpetual free tier; offers an initial 7-day free trial / trial credits upon workspace onboarding. | Enterprise AI software engineering platform engineered with real-time codebase context engines for massive monorepos and autonomous task execution. |
+| **[JetBrains AI Assistant & Junie](https://jetbrains.com)** | ~$700M+ Annual Revenue (Privately held / bootstrapped) | $10.00 / month (AI Pro) | **Perpetual Free Tier (`AI Free`)**: Unlimited local model support, basic local completions, and 3 cloud AI credits/30 days; includes 30-day AI Pro trial. | Natively integrated AI coding assistant and autonomous engineering agent built directly into IntelliJ IDEA, PyCharm, WebStorm, GoLand, and Rider. |
+| **[Tabnine Enterprise](https://tabnine.com)** | ~$100M (Acquired by Tricentis, Jul 2026) / ~$27M ARR | $39.00 / user / month (Code Assistant Plan) | **Free Trial**: 90-day free trial of Pro/Code Assistant features; perpetual free starter tier has been discontinued. | Enterprise-grade AI coding assistant emphasizing zero-data-retention privacy, VPC/air-gapped deployments, custom repository fine-tuning, and compliance-safe code generation. |
+| **[Continue.dev Hub (Cloud)](https://continue.dev)** | $5.5M funding raised (Acquired by Cursor, Jun 2026) | $10.00 / developer / month (Team Hub) | **Perpetual Free Tier**: Full open-source client extension (Apache 2.0) with unlimited usage via local LLMs (Ollama) or Bring-Your-Own-Key (BYOK). | Cloud governance and configuration layer for the open-source Continue IDE extension enabling shared team engineering assistants, MCP tool setups, and model routing policies. |
 
 
 
