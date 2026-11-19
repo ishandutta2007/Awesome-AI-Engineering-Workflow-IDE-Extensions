@@ -1,46 +1,53 @@
-# Awesome-AI-Engineering-Workflow-IDE-Extensions
+# 🚀 Awesome AI Engineering Workflow & IDE Extensions Ecosystem
 
-## Top AI Engineering Workflow & IDE Extensions Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Engineering Workflow &amp; IDE Extensions Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions?style=flat-square&color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## ⚡ Overview & Ecosystem Focus
 
-*Focused on Compound Engineering Plugins, Agentic IDE Extensions, Plan-to-PR Software Workflows, Local LLM Copilots & Multi-Editor AI Tooling*  
+A curated directory of top-tier **SaaS products** and active **open-source GitHub projects** powering the next era of **AI Engineering Workflows & IDE Extensions**. 
 
-**Last updated: November 2026**
+From autonomous coding agents (`Cursor`, `Cline`, `Roo Code`, `OpenHands`) and plan-to-PR pipelines (`Copilot Workspace`, `Aider`, `BMAD-METHOD`) to compound engineering skills and local LLM autocomplete engines (`Continue`, `Tabby`, `Twinny`, `Zed`), this guide delivers the most complete, factual, and actionable index for modern software engineers, tech leads, and autonomous AI developers.
 
+> 📅 **Last Curated & Verified**: November 2026
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Engineering Workflow & IDE Extensions**. These tools embed structured engineering workflows—planning, architecture review, multi-file editing, automated testing, and pull-request verification—directly inside VS Code, JetBrains IDEs, Neovim, Zed, and terminal editors.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🌐 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
-**Examples** include Cursor, GitHub Copilot Workspace, Windsurf (Codeium), Replit Ghostwriter / Agent, Tabnine Enterprise, Amazon Q Developer, Sourcegraph Cody, Continue.dev, JetBrains AI, and EveryInc/compound-engineering-plugin (the category leaders). 
+## 📊 Sector Overview & Market Dynamics
 
+The AI developer tooling and engineering workflow software market is projected to reach **$7.0B to $9.5B by 2026**, driven by an aggressive enterprise shift from single-line autocomplete toward multi-file agentic architectures, automated test suites, and plan-to-PR synthesis.
 
+The sector demonstrates a **concentrated core** anchored by tech hyperscalers and dominant category leaders (including Microsoft/GitHub, Amazon, and Anysphere/Cursor) who capture the majority of commercial enterprise budgets. In parallel, a **moderately fragmented and rapidly expanding frontier** of open-source projects, community agent protocols (such as Model Context Protocol - MCP), and specialized IDE forks continually challenge incumbents with localized, privacy-first, and highly configurable workflows.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for compound engineering agent plugins, autonomous VS Code & JetBrains extensions (`Continue`, `Cline`, `Roo Code`, `Kilo Code`), open-source AI-native editors (`Void`, `Zed`), Neovim/Emacs agent workflows, and local LLM autocomplete engines — ideal for software engineers, tech leads, and open-source maintainers building reproducible AI engineering pipelines.
+---
 
+## 🏢 SaaS & Hosted Commercial Platforms
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The AI developer tools and engineering workflow market is projected to reach approximately $7.0B to $9.5B by 2026, driven by enterprise shift from simple autocomplete to autonomous agentic workflows and multi-file code synthesis. The sector displays a concentrated core dominated by hyperscalers and key platform providers (such as Microsoft/GitHub, Amazon, and Anysphere/Cursor) capturing the majority of enterprise revenue, complemented by a moderately fragmented, fast-evolving ecosystem of specialized venture-backed startups and open-source tooling.
-
-## SaaS/Hosted Platforms
+*Enterprise and hosted AI coding platforms sorted in descending order by company valuation / market capitalization.*
 
 | Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier Limits / Evaluation | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -55,124 +62,121 @@ The AI developer tools and engineering workflow market is projected to reach app
 | **[Tabnine Enterprise](https://tabnine.com)** | ~$100M (Acquired by Tricentis, Jul 2026) / ~$27M ARR | $39.00 / user / month (Code Assistant Plan) | **Free Trial**: 90-day free trial of Pro/Code Assistant features; perpetual free starter tier has been discontinued. | Enterprise-grade AI coding assistant emphasizing zero-data-retention privacy, VPC/air-gapped deployments, custom repository fine-tuning, and compliance-safe code generation. |
 | **[Continue.dev Hub (Cloud)](https://continue.dev)** | $5.5M funding raised (Acquired by Cursor, Jun 2026) | $10.00 / developer / month (Team Hub) | **Perpetual Free Tier**: Full open-source client extension (Apache 2.0) with unlimited usage via local LLMs (Ollama) or Bring-Your-Own-Key (BYOK). | Cloud governance and configuration layer for the open-source Continue IDE extension enabling shared team engineering assistants, MCP tool setups, and model routing policies. |
 
+---
 
+## 🌐 Open-Source GitHub Projects
 
+*Open-source AI coding tools, autonomous agents, and IDE plugins sorted in descending order by GitHub star count.*
 
+1. **[Superpowers (`obra/superpowers`)](https://github.com/obra/superpowers)** [![Stars](https://img.shields.io/github/stars/obra/superpowers?style=social&color=white)](https://github.com/obra/superpowers/stargazers)  
+   Structured software engineering skill framework for Claude Code, Codex, and OpenCode enforcing brainstorming, test-driven development (TDD), subagent orchestration, and systematic debugging workflows.
 
-## Open-Source GitHub Projects
+2. **[OpenCode (`anomalyco/opencode`)](https://github.com/anomalyco/opencode)** [![Stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social&color=white)](https://github.com/anomalyco/opencode/stargazers)  
+   Modern, open-source terminal-native AI coding agent featuring a slick TUI, Language Server Protocol (LSP) diagnostics integration, client/server architecture, and multi-provider LLM support.
 
+3. **[Zed Editor (`zed-industries/zed`)](https://github.com/zed-industries/zed)** [![Stars](https://img.shields.io/github/stars/zed-industries/zed?style=social&color=white)](https://github.com/zed-industries/zed/stargazers)  
+   High-performance, GPU-accelerated Rust code editor with built-in Agentic Editing, multi-buffer AI workflows, and real-time Edit Prediction using open Zeta models.
 
+4. **[OpenHands (`OpenHands/OpenHands`)](https://github.com/OpenHands/OpenHands)** [![Stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=social&color=white)](https://github.com/OpenHands/OpenHands/stargazers)  
+   Autonomous AI software engineering platform executing complex code tasks inside sandboxed Docker containers with full shell, editor, browser, and GitHub issue-to-PR capabilities.
 
-- **[EveryInc/compound-engineering-plugin](https://github.com)**  
+5. **[Cline (`cline/cline`)](https://github.com/cline/cline)** [![Stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
+   Autonomous AI engineering agent for VS Code with human-in-the-loop approval, capable of creating and editing multi-file projects, executing terminal commands, viewing browsers, and calling custom MCP tools.
 
-  Open-source (`MIT`) compound engineering workflow plugin for Claude Code, Cursor, OpenCode, and Codex providing structured `/workflows:plan`, `/workflows:work`, `/workflows:review`, and `/workflows:compound` loops with multi-agent review personas.
+6. **[BMAD-METHOD (`bmad-code-org/BMAD-METHOD`)](https://github.com/bmad-code-org/BMAD-METHOD)** [![Stars](https://img.shields.io/github/stars/bmad-code-org/BMAD-METHOD?style=social&color=white)](https://github.com/bmad-code-org/BMAD-METHOD/stargazers)  
+   Open-source specification-driven engineering workflow (`Specify -> Plan -> Tasks -> Implement`) designed to structure autonomous agents across VS Code, Cursor, and terminal environments.
 
+7. **[GPT-Engineer (`AntonOsika/gpt-engineer`)](https://github.com/AntonOsika/gpt-engineer)** [![Stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer?style=social&color=white)](https://github.com/AntonOsika/gpt-engineer/stargazers)  
+   Command-line tool and agent framework that builds complete codebases from user prompts, handles iterative refinements, and synchronizes code changes into IDE workspaces.
 
+8. **[Aider (`Aider-AI/aider`)](https://github.com/Aider-AI/aider)** [![Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
+   Terminal AI pair-programming assistant that maps Git repositories, executes coordinated multi-file edits, runs linters and test suites, and creates atomic Git commits automatically.
 
-- **[Continue (`continuedev/continue`)](https://github.com)**  
+9. **[CopilotKit (`CopilotKit/CopilotKit`)](https://github.com/CopilotKit/CopilotKit)** [![Stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers)  
+   Open-source framework to build custom in-app AI copilots, AI textareas, and generative IDE UI components with agent-state synchronization and MCP integrations.
 
-  Leading open-source (`Apache-2.0`) AI code assistant extension for VS Code and JetBrains enabling custom Tab autocomplete, inline edits, and agent workflows backed by any local or cloud LLM.
+10. **[Khoj (`khoj-ai/khoj`)](https://github.com/khoj-ai/khoj)** [![Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+    Open-source AI copilot and personal search engine for software engineers with native plugins for Emacs, Obsidian, Desktop, and web for building a searchable second brain across repos and docs.
 
+11. **[Continue (`continuedev/continue`)](https://github.com/continuedev/continue)** [![Stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
+    Leading open-source AI code assistant extension for VS Code and JetBrains enabling custom Tab autocomplete, inline diff editing, and agentic workflows backed by any local or cloud LLM.
 
+12. **[Tabby (`TabbyML/tabby`)](https://github.com/TabbyML/tabby)** [![Stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
+    Self-hosted AI coding assistant written in Rust with repository-level RAG, Fill-in-the-Middle (FIM) autocomplete, and client extensions for VS Code, IntelliJ, and Vim/Neovim.
 
-- **[Cline (`cline/cline`)](https://github.com)**  
+13. **[GPT-Pilot (`Pythagora-io/gpt-pilot`)](https://github.com/Pythagora-io/gpt-pilot)** [![Stars](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot?style=social&color=white)](https://github.com/Pythagora-io/gpt-pilot/stargazers)  
+    Real-world AI pair programmer that writes production-ready apps step-by-step alongside the developer, debugging code, running tests, and requesting user feedback.
 
-  Popular open-source (`Apache-2.0`) autonomous engineering agent for VS Code capable of creating/editing files, running terminal commands, inspecting browsers, and connecting to MCP servers with human-in-the-loop approval.
+14. **[Void (`voideditor/void`)](https://github.com/voideditor/void)** [![Stars](https://img.shields.io/github/stars/voideditor/void?style=social&color=white)](https://github.com/voideditor/void/stargazers)  
+    Open-source AI-native code editor built directly on VS Code providing inline diffs, codebase indexing, agentic file modifications, and local Ollama or BYOK LLM connectivity.
 
+15. **[Kilo Code (`Kilo-Org/kilocode`)](https://github.com/Kilo-Org/kilocode)** [![Stars](https://img.shields.io/github/stars/Kilo-Org/kilocode?style=social&color=white)](https://github.com/Kilo-Org/kilocode/stargazers)  
+    Unified open-source VS Code AI engineering extension combining capabilities from Cline, Roo Code, and Continue with intelligent multi-model routing and automated refactoring.
 
+16. **[Compound Engineering Plugin (`EveryInc/compound-engineering-plugin`)](https://github.com/EveryInc/compound-engineering-plugin)** [![Stars](https://img.shields.io/github/stars/EveryInc/compound-engineering-plugin?style=social&color=white)](https://github.com/EveryInc/compound-engineering-plugin/stargazers)  
+    Structured compound software engineering plugin for Claude Code, Cursor, OpenCode, and Codex delivering formal `/workflows:plan`, `/workflows:work`, `/workflows:review`, and `/workflows:compound` cycles.
 
-- **[Roo Code (`RooCodeInc/Roo-Code`)](https://github.com)**  
+17. **[Roo Code (`RooCodeInc/Roo-Code`)](https://github.com/RooCodeInc/Roo-Code)** [![Stars](https://img.shields.io/github/stars/RooCodeInc/Roo-Code?style=social&color=white)](https://github.com/RooCodeInc/Roo-Code/stargazers)  
+    Feature-rich open-source fork of Cline offering specialized engineering modes (`Architect`, `Code`, `Debug`, `Orchestrator`), Boomerang sub-tasks, and granular model routing.
 
-  Feature-rich open-source (`Apache-2.0`) fork of Cline offering specialized engineering modes (`Architect`, `Code`, `Debug`, `Orchestrator`), Boomerang sub-tasks, and granular model routing.
+18. **[Avante.nvim (`avante-corp/avante.nvim`)](https://github.com/avante-corp/avante.nvim)** [![Stars](https://img.shields.io/github/stars/avante-corp/avante.nvim?style=social&color=white)](https://github.com/avante-corp/avante.nvim/stargazers)  
+    Open-source Neovim plugin emulating the Cursor AI IDE experience inside terminal Neovim, featuring side-by-side diff previews, agentic tool execution, and multi-model support.
 
+19. **[PR-Agent (`The-PR-Agent/pr-agent`)](https://github.com/The-PR-Agent/pr-agent)** [![Stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social&color=white)](https://github.com/The-PR-Agent/pr-agent/stargazers)  
+    AI-powered pull request reviewer and engineering workflow tool providing automated code walkthroughs, bug detection, test suite generation, and interactive `/improve` PR commands.
 
+20. **[Plandex (`plandex-ai/plandex`)](https://github.com/plandex-ai/plandex)** [![Stars](https://img.shields.io/github/stars/plandex-ai/plandex?style=social&color=white)](https://github.com/plandex-ai/plandex/stargazers)  
+    Terminal-based AI coding engine designed for complex software tasks that span dozens of files, utilizing sandbox execution, version control integration, and diff reviews.
 
-- **[Kilo Code (`Kilo-Org/kilocode`)](https://github.com)**  
+21. **[Sweep (`sweepai/sweep`)](https://github.com/sweepai/sweep)** [![Stars](https://img.shields.io/github/stars/sweepai/sweep?style=social&color=white)](https://github.com/sweepai/sweep/stargazers)  
+    Open-source AI junior developer that turns GitHub issues into tested pull requests, reading entire codebases, creating branches, writing code, and iterating on reviews.
 
-  Open-source (`Apache-2.0`) unified VS Code AI engineering extension combining the best capabilities of Cline, Roo Code, and Continue with built-in model routing and automated refactoring.
+22. **[CodeCompanion.nvim (`olimorris/codecompanion.nvim`)](https://github.com/olimorris/codecompanion.nvim)** [![Stars](https://img.shields.io/github/stars/olimorris/codecompanion.nvim?style=social&color=white)](https://github.com/olimorris/codecompanion.nvim/stargazers)  
+    Extensible AI engineering plugin for Neovim supporting inline code transformations, agentic slash commands, Model Context Protocol (MCP) servers, and local/cloud LLM adapters.
 
+23. **[Twinny (`twinnydotdev/twinny`)](https://github.com/twinnydotdev/twinny)** [![Stars](https://img.shields.io/github/stars/twinnydotdev/twinny?style=social&color=white)](https://github.com/twinnydotdev/twinny/stargazers)  
+    Privacy-first VS Code extension built specifically for local Ollama, llama.cpp, and LM Studio inference featuring zero telemetry, FIM code completion, and codebase RAG chat.
 
+24. **[Refact.ai (`smallcloudai/refact`)](https://github.com/smallcloudai/refact)** [![Stars](https://img.shields.io/github/stars/smallcloudai/refact?style=social&color=white)](https://github.com/smallcloudai/refact/stargazers)  
+    Self-hostable AI coding engine supporting custom local fine-tuning, AST-aware code completions, and autonomous bug-fixing agents for VS Code and JetBrains IDEs.
 
-- **[Void (`voideditor/void`)](https://github.com)**  
+25. **[Minuet AI (`milanglacier/minuet-ai.nvim`)](https://github.com/milanglacier/minuet-ai.nvim)** [![Stars](https://img.shields.io/github/stars/milanglacier/minuet-ai.nvim?style=social&color=white)](https://github.com/milanglacier/minuet-ai.nvim/stargazers)  
+    Ultra-lightweight Neovim plugin for dance-like code completion powered by Claude 3.5, OpenAI, Codestral, or local Ollama LLMs with virtual text ghost completions.
 
-  Open-source (`Apache-2.0`) alternative to Cursor built directly on VS Code providing inline diffs, local codebase indexing, agentic file editing, and direct BYOK/Ollama connections.
+---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcome! Whether you are an open-source maintainer or an active user of an AI extension:
 
-- **[Zed Editor (`zed-industries/zed`)](https://github.com)**  
+1. **Fork** this repository.
+2. Create your branch: `git checkout -b feat/add-awesome-extension`.
+3. Add or update the platform/project under the relevant section:
+   - Ensure the name, repository link, and description are factual.
+   - For SaaS products, verify starting prices and free tier limits.
+   - For open-source repos, include the social star badge linking to the stargazer page.
+4. **Commit** your changes: `git commit -m "Add new AI engineering extension"`.
+5. **Push** to your fork: `git push origin feat/add-awesome-extension`.
+6. Open a **Pull Request** detailing why the tool belongs in this curated ecosystem.
 
-  High-performance open-source (`GPL-3.0` / `Apache-2.0`) Rust code editor featuring native Agentic Editing, Edit Prediction (`Zeta` open model), and multi-buffer AI engineering workflows.
+---
 
+## 💖 Support
 
+Thank you for exploring this ecosystem! If you find this directory helpful for your engineering workflow:
 
-- **[Aider (`Aider-AI/aider`)](https://github.com)**  
+- ⭐ **Star this repository** to help other developers discover it!
+- 🍴 **Fork and share** with your software engineering team or community.
+- ☕ **Buy me a coffee**: If you'd like to support ongoing curation and maintenance, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
-  Pioneering open-source (`Apache-2.0`) terminal AI pair-programming tool that maps entire Git repositories, coordinates multi-file edits, runs linters/tests, and creates clean Git commits.
+---
 
+## ⭐ Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Engineering-Workflow-IDE-Extensions&type=date&legend=top-left)
 
-- **[OpenCode (`anomalyco/opencode`)](https://github.com)**  
+---
 
-  Modern open-source (`MIT`) terminal-native AI coding agent featuring a polished TUI, LSP diagnostics integration, client/server architecture, and multi-provider LLM support.
+## 📜 Disclaimer
 
-
-
-- **[Tabby (`TabbyML/tabby`)](https://github.com)**  
-
-  Self-hosted open-source (`Apache-2.0`) AI coding assistant written in Rust offering repository-level RAG, FIM (Fill-in-the-Middle) autocomplete, and extensions for VS Code, Vim/Neovim, and IntelliJ.
-
-
-
-- **[Twinny (`twinnydotdev/twinny`)](https://github.com)**  
-
-  Privacy-first open-source (`MIT`) VS Code extension designed for local Ollama, llama.cpp, and LM Studio inference with zero telemetry, FIM autocomplete, and RAG chat.
-
-
-
-- **[Avante.nvim (`yetone/avante.nvim`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) Neovim plugin replicating the Cursor AI IDE experience inside Vim with side-by-side diff previews, agentic tool calling, and multi-model support.
-
-
-
-- **[CodeCompanion.nvim (`olimorris/codecompanion.nvim`)](https://github.com)**  
-
-  Extensible open-source (`MIT`) AI engineering plugin for Neovim supporting inline code transformations, agentic slash commands, MCP servers, and local/cloud adapters.
-
-
-
-- **[Superpowers (`obra/superpowers`)](https://github.com)**  
-
-  Popular open-source (`MIT`) structured software-engineering skill framework for Claude Code, Codex, and OpenCode enforcing brainstorming, TDD, subagent-driven development, and systematic debugging.
-
-
-
-- **[OpenHands (`All-Hands-AI/OpenHands`)](https://github.com)**  
-
-  Open-source (`MIT`) platform for autonomous software-engineering agents operating inside sandboxed Docker containers with full bash, code editor, and web browser capabilities.
-
-
-
-- **[PR-Agent / Qodo Merge (`qodo-ai/pr-agent`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) AI-powered pull request reviewer and engineering workflow tool providing automated code walkthroughs, bug detection, test generation, and `/improve` commands.
-
-
-
-- **[Refact.ai (`smallcloudai/refact`)](https://github.com)**  
-
-  Self-hostable open-source (`BSD-3-Clause`) AI coding engine supporting local fine-tuning, AST-aware code completion, and autonomous bug-fixing agents for VS Code and JetBrains.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Serena (`oraios/serena`)](https://github.com)** and **[Tree-sitter (`tree-sitter/tree-sitter`)](https://github.com)** for Language Server Protocol (LSP) MCP toolkits and incremental AST parsing giving IDE extensions symbol-level codebase intelligence.
-
-- **[Spec-Kit (`github/spec-kit`)](https://github.com)** and **[BMAD-METHOD (`bmadcode/BMAD-METHOD`)](https://github.com)** for open-source spec-driven AI engineering workflows (`Specify -> Plan -> Tasks -> Implement`) across IDE agents.
-
-- **[llama.vim (`ggml-org/llama.vim`)](https://github.com)** and **[minuet-ai.nvim (`milanglacier/minuet-ai.nvim`)](https://github.com)** for ultra-lightweight Vim/Neovim local FIM code completion.
-
-- **[Ollama (`ollama/ollama`)](https://github.com)** and **[Qwen2.5-Coder / Qwen3-Coder (`QwenLM/Qwen2.5-Coder`)](https://github.com)** for running high-accuracy open-weight coding models locally behind IDE extensions.
+*This repository is curated for educational, developmental, and research purposes. Product names, logos, and brands are property of their respective owners. Pricing, tier limits, valuations, and star counts are subject to change over time.*

@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d1a"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#818cf8"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Subtitle Gradient -->
+    <linearGradient id="sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Cyan Glow -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Purple Glow -->
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+      }
+      .tagline-text {
+        font-family: 'SF Mono', Monaco, Menlo, Consolas, monospace;
+        font-weight: 400;
+        font-size: 14px;
+        fill: #38bdf8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="420" fill="url(#bg-grad)" rx="16"/>
+
+  <!-- Subtle Cyberpunk Background Grid Pattern -->
+  <g stroke="#334155" stroke-width="0.5" stroke-opacity="0.3">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="100" y1="0" x2="100" y2="420"/>
+    <line x1="250" y1="0" x2="250" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="420"/>
+    <line x1="550" y1="0" x2="550" y2="420"/>
+    <line x1="700" y1="0" x2="700" y2="420"/>
+    <line x1="850" y1="0" x2="850" y2="420"/>
+    <line x1="1000" y1="0" x2="1000" y2="420"/>
+    <line x1="1150" y1="0" x2="1150" y2="420"/>
+  </g>
+
+  <!-- Ambient Dynamic Glowing Orbs (placed strictly in background) -->
+  <g opacity="0.35">
+    <circle cx="150" cy="90" r="130" fill="#38bdf8">
+      <animate attributeName="r" values="120;145;120" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.45;0.25" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="180" r="160" fill="#818cf8">
+      <animate attributeName="r" values="150;180;150" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.4;0.2" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="380" r="180" fill="#c084fc">
+      <animate attributeName="r" values="160;200;160" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Dynamic Glowing Cyber Wave Line (Background) -->
+  <path d="M 0 320 Q 300 240 600 320 T 1200 320" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-opacity="0.4" filter="url(#glow-purple)">
+    <animate attributeName="d" 
+      values="M 0 320 Q 300 240 600 320 T 1200 320;
+              M 0 320 Q 300 380 600 320 T 1200 320;
+              M 0 320 Q 300 240 600 320 T 1200 320" 
+      dur="10s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Outer Tech Border Frame -->
+  <rect x="20" y="20" width="1160" height="380" rx="12" fill="none" stroke="#475569" stroke-width="1.2" stroke-opacity="0.5"/>
+  <rect x="25" y="25" width="1150" height="370" rx="10" fill="none" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="8 12" stroke-opacity="0.4"/>
+
+  <!-- ==================== FOREGROUND CONTENT ==================== -->
+  <!-- Tagline / Top Status Badge -->
+  <g transform="translate(600, 68)">
+    <rect x="-195" y="-16" width="390" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="-168" cy="0" r="4.5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text text-anchor="middle" y="5" class="tagline-text">⚡ AI ENGINEERING &amp; IDE EXTENSIONS</text>
+  </g>
+
+  <!-- Main Repository Title (Crisp, High Contrast Foreground) -->
+  <g transform="translate(600, 140)">
+    <text text-anchor="middle" class="title-text" fill="url(#title-grad)" filter="drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.9))">
+      Awesome AI Engineering &amp; IDE Extensions
+    </text>
+  </g>
+
+  <!-- Subtitle (Clear Foreground) -->
+  <g transform="translate(600, 190)">
+    <text text-anchor="middle" class="subtitle-text" fill="url(#sub-grad)" filter="drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.8))">
+      Curated Ecosystem of Autonomous Agents, Compound Workflows &amp; IDE Plugins
+    </text>
+  </g>
+
+  <!-- High-Level Flow / Concept Pills (Interactive Foreground Layout) -->
+  <g transform="translate(140, 248)">
+    <!-- Pill 1: Plan-to-PR -->
+    <g transform="translate(0, 0)">
+      <rect width="195" height="42" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="22" cy="21" r="5" fill="#38bdf8"/>
+      <text x="36" y="26" class="pill-text">📐 Plan-to-PR Workflows</text>
+    </g>
+
+    <!-- Pill 2: Agentic IDEs -->
+    <g transform="translate(215, 0)">
+      <rect width="195" height="42" rx="8" fill="url(#card-grad)" stroke="#818cf8" stroke-width="1.2"/>
+      <circle cx="22" cy="21" r="5" fill="#818cf8"/>
+      <text x="36" y="26" class="pill-text">🤖 Agentic Coding IDEs</text>
+    </g>
+
+    <!-- Pill 3: Compound Engineering -->
+    <g transform="translate(430, 0)">
+      <rect width="235" height="42" rx="8" fill="url(#card-grad)" stroke="#c084fc" stroke-width="1.2"/>
+      <circle cx="22" cy="21" r="5" fill="#c084fc"/>
+      <text x="36" y="26" class="pill-text">🔄 Compound Plugins &amp; MCP</text>
+    </g>
+
+    <!-- Pill 4: Local Models -->
+    <g transform="translate(685, 0)">
+      <rect width="235" height="42" rx="8" fill="url(#card-grad)" stroke="#f472b6" stroke-width="1.2"/>
+      <circle cx="22" cy="21" r="5" fill="#f472b6"/>
+      <text x="36" y="26" class="pill-text">💻 Local LLMs &amp; Autocomplete</text>
+    </g>
+  </g>
+
+  <!-- Editor Ecosystem Badges (Bottom Row Foreground) -->
+  <g transform="translate(600, 345)">
+    <text text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748b">
+      SUPPORTING EXTENSIONS ACROSS:
+    </text>
+    <text text-anchor="middle" y="24" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#94a3b8">
+      VS Code • JetBrains (IntelliJ, PyCharm) • Neovim • Zed • Terminal &amp; CLI
+    </text>
+  </g>
+
+  <!-- Tech Accent Corner Decors -->
+  <g stroke="#38bdf8" stroke-width="2" fill="none">
+    <path d="M 30 50 L 30 30 L 50 30"/>
+    <path d="M 1170 50 L 1170 30 L 1150 30"/>
+    <path d="M 30 370 L 30 390 L 50 390"/>
+    <path d="M 1170 370 L 1170 390 L 1150 390"/>
+  </g>
+</svg>
